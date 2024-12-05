@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    background-image: linear-gradient(black, white);
+    background-image: url(pepernoten.jpg);
+    color: white;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+h1 {
+    position: relative;
+    place-items: center;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 2em;
+    color: yellow;
+    background: red;
+    border: red solid 3px;
+    padding: 1em;
+}
+
+div {
+    color: black;
+    background: white;
+    padding: 1em;
+    border: black solid 3px;
+    border-radius: 1em;
+}
