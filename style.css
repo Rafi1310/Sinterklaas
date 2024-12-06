@@ -4,7 +4,10 @@ body {
     grid-template-columns: 1fr;
     place-items: center;
     background-image: linear-gradient(black, white);
-    background-image: url(pepernoten.jpg);
+    background-image: url(Sinterklaas1.jpg);
+    background-size: cover;
+    background-position: 110vw;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -17,16 +20,21 @@ main {
 
 h1 {
     position: relative;
+    font-size: 2.5em;
     place-items: center;
+    font-weight: bolder;
+    text-shadow: rgb(54, 54, 253) 2px 2px;
+    margin-bottom: 0;
+    text-decoration: underline;
 }
 
 h2 {
     margin-bottom: 0;
 }
 
-p {
+li {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 a {
@@ -34,8 +42,10 @@ a {
     margin: 2em;
     color: yellow;
     background: red;
-    border: red solid 3px;
+    border: red solid 1px;
+    border-radius: 1em;
     padding: 1em;
+    box-shadow: rgb(255, 255, 0) 3px 3px;
 }
 
 div {
